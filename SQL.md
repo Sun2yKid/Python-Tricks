@@ -15,6 +15,7 @@ schema(模式)，可以用来描述表的信息，也可以用来描述整个数
 
 * IN 操作符一般比一组OR 操作符执行得更快
 
+* 视图是虚拟的表，它不包括任何列或者数据，包含的是一个查询。用于SQL语句的重用，
 
 ### Syntax
 
@@ -171,7 +172,7 @@ EXEC SelectAllCustomers @City = "London", @PostalCode = "WA1 1DP";
 The BACKUP DATABASE statement is used in SQL Server to create a full back up of an existing SQL database.
 
 Syntax
-BACKUP DATABASE databasename
+> BACKUP DATABASE databasename
 TO DISK = 'filepath';
 
 ### SQL Constraints
@@ -229,3 +230,7 @@ WHERE condition;
 
 ### SQL DROP VIEW Syntax
 > DROP VIEW view_name;
+
+
+## REF
+[w3schools](https://www.w3schools.com/sql/default.asp)
