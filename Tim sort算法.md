@@ -14,5 +14,3 @@ Timsort
 
 Python 中使用的 Timsort 算法可以有效地进行多种排序，因为它可以利用数据集中已存在的任何排序。
 https://docs.python.org/zh-cn/3/howto/sorting.html
-
-
